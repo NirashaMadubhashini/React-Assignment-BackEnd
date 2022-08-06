@@ -5,7 +5,6 @@ const order = require('./routes/order')
 const app = express()
 const port = 4000
 
-
 app.use(express.json())
 app.use('/customer', customer)
 app.use('/item',  item)
